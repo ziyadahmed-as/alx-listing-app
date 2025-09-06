@@ -1,5 +1,5 @@
 
-import {CardProps} from '@/interfaces/idex';
+import {CardProps} from '@/interfaces';
 const Card = ({ title, description, imageUrl }: CardProps) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">

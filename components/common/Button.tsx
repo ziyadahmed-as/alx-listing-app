@@ -1,5 +1,5 @@
 
-import { ButtonProps } from '@/interfaces/idex';
+import { ButtonProps } from '@/interfaces';
 const Button = ({ onClick, children, variant = 'primary' }: ButtonProps) => {
   const baseClasses = "px-4 py-2 rounded font-bold";
   const variants = {
